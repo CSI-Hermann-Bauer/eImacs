@@ -9,7 +9,7 @@ import com.eimacs.digest.UserInfoDialog;
  */
 public class Lab06Runner
 {
-    public static int checkIndex = 0;
+    public static int checkIndex = 2;
     
     public static void main( String[] args )
     {
@@ -18,12 +18,12 @@ public class Lab06Runner
          * statements and comment out the rest of the main method
          * before running the project.
         */
-//        UserInfoDialog dlg = new UserInfoDialog( null, true );
-//        dlg.setLocationRelativeTo( null );
-//        dlg.setVisible( true );
+        UserInfoDialog dlg = new UserInfoDialog( null, true );
+        dlg.setLocationRelativeTo( null );
+        dlg.setVisible( true );
 
-        Picture p = new Picture( "beach.jpg" );
-        p.explore();
+        //Picture p = new Picture( "water.jpg" );
+        //p.explore();
     }
     
 }
